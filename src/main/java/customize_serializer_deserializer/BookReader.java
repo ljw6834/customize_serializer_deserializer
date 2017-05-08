@@ -6,7 +6,7 @@ import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
 @JsonSerialize(using = CustSerializer.class)
-//@JsonDeserialize(using = CustDeserializer.class)
+@JsonDeserialize(using = CustDeserializer.class)
 public class BookReader {
 	
 	private long id; 
