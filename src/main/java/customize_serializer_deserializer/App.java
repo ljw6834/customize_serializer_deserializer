@@ -27,15 +27,15 @@ public class App {
 		}
 		System.out.println(jsonReader + "\n");
 		
-		System.out.println("-----deserialize Json to Java------\n");
-		BookReader readerFromJson = null;
-		try {
-			 readerFromJson = mapper.readValue(jsonReader, BookReader.class);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		System.out.println(readerFromJson.toString());
+//		System.out.println("-----deserialize Json to Java------\n");
+//		BookReader readerFromJson = null;
+//		try {
+//			 readerFromJson = mapper.readValue(jsonReader, BookReader.class);
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		System.out.println(readerFromJson.toString());
 	}
 
 }
